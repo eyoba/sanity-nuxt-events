@@ -1,0 +1,208 @@
+# Redirects file for web/ build, it needs
+# to be here because Netlify is currently
+# configured to use root as base directory
+# for build.
+
+# Redirects, use status 301
+[[redirects]]
+  from = "/intern/*"
+  to = "https://o.nsd.no/intern/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/korona/*"
+  to = "https://o.nsd.no/korona/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/data/*"
+  to = "https://o.nsd.no/data/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/vgs/*"
+  to = "https://o.nsd.no/vgs/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/european_election_database/*"
+  to = "https://o.nsd.no/european_election_database/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/eed/*"
+  to = "https://o.nsd.no/european_election_database/:splat"
+  status = 301  
+
+[[redirects]]
+  from = "/nsd/english/*"
+  to = "/en/"
+  status = 301
+
+[[redirects]]
+  from = "/data-overview.html"
+  to = "/finn-data/"
+  status = 301
+
+[[redirects]]
+  from = "/common/*"
+  to = "https://o.nsd.no/common/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/img/*"
+  to = "https://o.nsd.no/img/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/system/login/"
+  to = "https://o.nsd.no/system/login/"
+  status = 301
+
+[[redirects]]
+  from = "/nordi/"
+  to = "https://www.nsd.no/om-nsd-norsk-senter-for-forskningsdata/prosjekter/nordi"
+  status = 301
+
+[[redirects]]
+  from = "/arkivering/*"
+  to = "/arkiver-data/"
+  status = 301  
+
+[[redirects]]
+  from = "/error/404/index.html"
+  to = "/404"
+  status = 301  
+
+[[redirects]]
+  from = "/personvernombud/ledelse_administrasjon/om_meldingsarkivet.html"
+  to = "/personverntjenester/meldingsarkivet-for-ledelse-og-administrasjon"
+  status = 301
+
+[[redirects]]
+  from = "/personvernombud/ledelse_administrasjon/index.html"
+  to = "/personverntjenester/meldingsarkivet-for-ledelse-og-administrasjon"
+  status = 301
+
+[[redirects]]
+  from = "/personvernombud/ledelse_administrasjon/brukere.html"
+  to = "/personverntjenester/meldingsarkivet-for-ledelse-og-administrasjon/brukere-av-nsds-personverntjenester"
+  status = 301  
+
+[[redirects]]
+  from = "/personvernombud/ledelse_administrasjon/veiledning.html"
+  to = "/personverntjenester/meldingsarkivet-for-ledelse-og-administrasjon/veiledning-til-nsds-meldingsarkiv"
+  status = 301
+
+[[redirects]]
+  from = "/personvernombud/meld_prosjekt/index.html"
+  to = "/personverntjenester/fylle-ut-meldeskjema-for-personopplysninger"
+  status = 301
+
+[[redirects]]
+  from = "/personvernombud/meld_prosjekt/fellesinnmelding.html"
+  to = "/personverntjenester/fylle-ut-meldeskjema-for-personopplysninger/felles-vurdering-av-bachelorprosjekter"
+  status = 301
+
+[[redirects]]
+  from = "/personvernombud/hjelp/informasjon_samtykke/*"
+  to = "/personverntjenester/fylle-ut-meldeskjema-for-personopplysninger/sjekkliste-for-informasjon-til-deltakerne/"
+  status = 301
+
+[[redirects]]
+  from = "/personvernombud/meld_prosjekt/meld_endringer.html"
+  to = "/personverntjenester/fylle-ut-meldeskjema-for-personopplysninger/melde-endringer-i-meldeskjema"
+  status = 301
+
+[[redirects]]
+  from = "/personvernombud/meld_prosjekt/slik_vurderer_vi.html"
+  to = "/personverntjenester/fylle-ut-meldeskjema-for-personopplysninger/vurdering-av-innsendte-meldeskjema"
+  status = 301
+
+[[redirects]]
+  from = "/personvernombud/hjelp/forskningstema/"
+  to = "/personverntjenester/oppslagsverk-for-personvern-i-forskning"
+  status = 301
+
+[[redirects]]
+  from = "/personvernombud/hjelp/forskningsmetoder/"
+  to = "/personverntjenester/oppslagsverk-for-personvern-i-forskning"
+  status = 301
+
+[[redirects]]
+  from = "/personvernombud/hjelp/forskningstema/egen_arbeidsplass.html"
+  to = "/personverntjenester/oppslagsverk-for-personvern-i-forskning/forske-pa-egen-arbeidsplass"
+  status = 301  
+
+[[redirects]]
+  from = "/personvernombud/hjelp/forskningsmetoder/kvalitetssikring_helse.htm"
+  to = "/personverntjenester/oppslagsverk-for-personvern-i-forskning/kvalitetssikring-i-helsesektoren"
+  status = 301  
+
+[[redirects]]
+  from = "/personvernombud/hjelp/forskningstema/barnehage_skole.html"
+  to = "/personverntjenester/oppslagsverk-for-personvern-i-forskning/barnehage-og-skoleforskning"
+  status = 301
+
+[[redirects]]
+  from = "/personvernombud/*"
+  to = "/personverntjenester/"
+  status = 301
+
+[[redirects]]
+  from = "/issp"
+  to = "/finn-data/issp"
+  status = 301
+
+# Rewrites, use status 200
+[[redirects]]
+  from = "/preview/*"
+  to = "/preview/"
+  status = 200
+
+[[redirects]]
+  from = "/skolevalg/*"
+  to = "https://o.nsd.no/skolevalg/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/nsddata/*"
+  to = "https://o.nsd.no/nsddata/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/polsys/*"
+  to = "https://o.nsd.no/polsys/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/meningsmalingsarkivet/*"
+  to = "https://o.nsd.no/meningsmalingsarkivet/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/mma/*"
+  to = "https://o.nsd.no/meningsmalingsarkivet/:splat"
+  status = 200    
+
+[[redirects]]
+  from = "/velferd/*"
+  to = "https://o.nsd.no/velferd/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/researchdata/*"
+  to = "https://o.nsd.no/researchdata/:splat"
+  status = 200
+
+#Short URL example
+[[redirects]]
+  from = "/tttt"
+  to = "/personverntjenester/oppslagsverk-for-personvern-i-forskning"
+  status = 200
+
+#Show error if the page dont exists
+[[redirects]]
+  from = "/*"
+  to = "/not_found.html"
+  status = 404
