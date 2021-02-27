@@ -1,6 +1,7 @@
 {
   "semi": false,
   "singleQuote": true,
+  "endOfLine": "auto",
   "eslint.validate": [
     {
       "language": "vue",
