@@ -169,6 +169,11 @@
   from = "/search/*"
   to = "https://search2.nsd.no/:splat"
   status = 200
+  
+  [[redirects]]
+  from = "/nsd/*"
+  to = "https://nsd.no/:splat"
+  status = 200
 
 [[redirects]]
   from = "/nsddata/*"
