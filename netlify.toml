@@ -166,8 +166,8 @@
   status = 200
 
 [[redirects]]
-  from = "/all/query/*"
-  to = "https://search2.nsd.no/all/query/:splat"
+  from = "/*"
+  to = "https://search2-stage.nsd.no/:splat"
   status = 200
   
   [[redirects]]
