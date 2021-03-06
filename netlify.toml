@@ -214,5 +214,5 @@
 #Show error if the page dont exists
 [[redirects]]
   from = "/*"
-  to = "/not_found.html"
-  status = 404
+  to = "index.html"
+  status = 200
