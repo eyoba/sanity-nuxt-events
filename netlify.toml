@@ -167,7 +167,7 @@
 
 [[redirects]]
   from = "/search*"
-  to = "https://nuxt-using-modified-default-movie-sanity-280c84.netlify.app/:splat"
+  to = "https://example-frontend-vue-js.netlify.app/:splat"
   status = 200
   
   [[redirects]]
