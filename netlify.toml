@@ -168,6 +168,7 @@
 [[redirects]]
   from = "/search/*"
   to = "https://example-frontend-vue-js.netlify.app/:splat"
+  force = true
   status = 200
   
   [[redirects]]
