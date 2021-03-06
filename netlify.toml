@@ -211,7 +211,6 @@
   to = "/personverntjenester/oppslagsverk-for-personvern-i-forskning"
   status = 200
 
-
 #Show error if the page dont exists
 [[redirects]]
   from = "/*"
