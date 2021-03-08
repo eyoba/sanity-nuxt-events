@@ -166,7 +166,7 @@
   status = 200
 
 [[redirects]]
-  from = "/google"
+  from = "/google/*"
   to = "https://www.google.com/"
   force = true
 
