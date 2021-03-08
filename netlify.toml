@@ -167,9 +167,12 @@
 
 
 [[redirects]]
-  from = "/search/*"
+  from = "/search"
   to = "https://search.nsd.no/:splat"
   status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
 
 [[redirects]]
   from = "/search22/*"
