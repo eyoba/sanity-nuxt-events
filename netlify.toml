@@ -176,7 +176,13 @@
   to = "https://search.nsd.no/:splat"
   status = 200
   force = true
-  Role=admin
+
+[[redirects]]
+  from = "https://search.nsd.no/css/*"
+  to = "/search/css/:splat"
+  status = 200
+  force = false
+
 
 [[redirects]]
   from = "/eyobsearch/*"
