@@ -178,7 +178,7 @@
   force = true
 
 [[redirects]]
-  from = "/registration"
+  from = "/registration/*"
   to = "https://example-frontend-vue-js.netlify.app"
   status = 301
   force = false
