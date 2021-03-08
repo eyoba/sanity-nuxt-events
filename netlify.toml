@@ -168,7 +168,7 @@
 
 [[redirects]]
   from = "/search/*"
-  to = "https://skolevalg.nsd.no/:splat"
+  to = "https://example-frontend-vue-js.netlify.app/:splat"
   status = 200
 
 [[redirects]]
