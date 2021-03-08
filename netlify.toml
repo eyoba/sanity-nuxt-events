@@ -171,7 +171,7 @@
   force = true
 
 [[redirects]]
-  from = "/search"
+  from = "/search/*"
   to = "https://search.nsd.no/:splat"
   status = 200
   force = true
