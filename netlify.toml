@@ -181,8 +181,8 @@
 [[redirects]]
   from = "/eyob/*"
   to = "https://example-frontend-vue-js.netlify.app/eyob/:splat"
-  status = 200!
-  force = true
+  status = 200
+  force = false
 
 
   
