@@ -178,8 +178,8 @@
   force = true
 
 [[redirects]]
-  from = "https://search.nsd.no/css/*"
-  to = "/search/css/:splat"
+  from = "https://search.nsd.no/static/*"
+  to = "/search/static/:splat"
   status = 200
   force = false
 
