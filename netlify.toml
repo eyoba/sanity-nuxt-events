@@ -184,7 +184,11 @@
   status = 200
   force = true
 
-
+[[redirects]]
+  from = "/css/*"
+  to = "https://example-frontend-vue-js.netlify.app/eyob/css/:splat"
+  status = 200
+  force = false
   
   [[redirects]]
   from = "/nsd/*"
