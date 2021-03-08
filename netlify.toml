@@ -173,7 +173,7 @@
 
 [[redirects]]
   from = "/search/*"
-  to = "https://www.nsd.no/:splat"
+  to = "https://search.nsd.no/:splat"
   status = 301
   force = true
 
