@@ -179,8 +179,8 @@
   force = true
 
 [[redirects]]
-  from = "/https://example-frontend-vue-js.netlify.app/*"
-  to = "/eyob/:splat"
+  from = "https://blog.example.com/*"
+  to = "https://example-frontend-vue-js.netlify.app/:splat"
   status = 200
   force = true
 
