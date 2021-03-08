@@ -174,10 +174,7 @@
   headers = {X-From = "Netlify"}
 
 
-[[redirects]]
-  from = "/eyobsearch/*"
-  to = "https://example-frontend-vue-js.netlify.app/:splat"
-  status = 200
+
   
   [[redirects]]
   from = "/nsd/*"
