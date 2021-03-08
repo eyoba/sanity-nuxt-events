@@ -175,14 +175,16 @@
   from = "/search/*"
   to = "https://search.nsd.no/:splat"
   status = 200
-  force = false
+  force = true
 
 
 
 [[redirects]]
-  from = "/eyobsearch/*"
+  from = "/eyob/*"
   to = "https://example-frontend-vue-js.netlify.app/:splat"
   status = 200
+  force = true
+  
   
   [[redirects]]
   from = "/nsd/*"
