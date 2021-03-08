@@ -173,11 +173,9 @@
 
 [[redirects]]
   from = "/search/*"
-  to = "https://search.nsd.no/:splat"
+  to = "https://foundation-sites.netlify.app/:splat"
   status = 200
   force = true
-  [redirects.headers]
-    X-From = "Netlify"
 
 
 [[redirects]]
