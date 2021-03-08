@@ -167,7 +167,7 @@
 
 [[redirects]]
   from = "/google/*"
-  to = "https://www.google.com/"
+  to = "https://www.google.com/:splat"
   force = true
 
 [[redirects]]
