@@ -173,7 +173,8 @@
 
 [[redirects]]
   from = "/search/*"
-  to = "https://search.nsd.no/:splat"
+  query = {search = ":search"}
+  to = "https://search.nsd.no/search/:search"
   status = 200
   force = true
 
