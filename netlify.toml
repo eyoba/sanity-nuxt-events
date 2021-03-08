@@ -167,7 +167,7 @@
 
 
 [[redirects]]
-  from = "/search"
+  from = "/search/*"
   to = "https://search.nsd.no/:splat"
   status = 200
   force = true
@@ -175,7 +175,7 @@
 
 
 [[redirects]]
-  from = "/search22/*"
+  from = "/eyobsearch/*"
   to = "https://example-frontend-vue-js.netlify.app/:splat"
   status = 200
   
