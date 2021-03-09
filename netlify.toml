@@ -173,6 +173,13 @@
 
 
 [[redirects]]
+  from = "/static/*"
+  to = "/search/static/:splat"
+  status = 200
+  force = true
+
+
+[[redirects]]
   from = "/search/*"
   to = "https://search.nsd.no/:splat"
   status = 200
@@ -196,11 +203,7 @@
   status = 200
   force = false
   
-  [[redirects]]
-  from = "/static/*"
-  to = "https://search.nsd.no/search/static/:splat"
-  status = 200
-  force = false
+  
   
   [[redirects]]
   from = "/nsd/*"
