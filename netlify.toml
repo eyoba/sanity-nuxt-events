@@ -173,8 +173,8 @@
 
 
 [[redirects]]
-  from = "/static/*"
-  to = "/search/static/:splat"
+  from = "/static/styles.css*"
+  to = "/search/static/styles.css"
   status = 200
   force = true
 
