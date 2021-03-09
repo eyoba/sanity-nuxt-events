@@ -198,7 +198,7 @@
   
   [[redirects]]
   from = "/static/*"
-  to = "https://search.nsd.no/static/:splat"
+  to = "/search/static/:splat"
   status = 200
   force = false
   
