@@ -174,7 +174,7 @@
 
 [[redirects]]
   from = "/search2/*"
-  to = "https://search2-stage.nsd.no/:splat"
+  to = "https://search2.nsd.no/:splat"
   status = 200
   force = true
 
