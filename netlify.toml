@@ -173,8 +173,8 @@
 
 
 [[redirects]]
-  from = "https://search2.nsd.no/*"
-  to = "https://sanity-nuxt-events-web-ryrrctxb.netlify.app/search2/:splat"
+  from = "/search2/*"
+  to = "https://search2.nsd.no/search2/:splat"
   status = 200
   force = true
 
