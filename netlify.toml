@@ -173,10 +173,10 @@
 
 
 [[redirects]]
-  from = "/search2/*"
-  to = "https://search2.nsd.no/search2/:splat"
+  from = "/https://search2.nsd.no/*"
+  to = "/search2/:splat"
   status = 200
-  force = true
+ 
 
 [[redirects]]
   from = "/eyob/*"
