@@ -173,9 +173,9 @@
 
 
 [[redirects]]
-  from = "/https://search2.nsd.no/*"
-  to = "/search2/:splat"
-  status = 200
+  from = "/search2/*"
+  to = "https://search2.nsd.no/:splat"
+  status = 302
  
 
 [[redirects]]
