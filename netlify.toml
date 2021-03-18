@@ -175,7 +175,7 @@
 
   
   [[redirects]]
-  from = ""https://search2.nsd.no/*"
+  from = "https://search2.nsd.no/*"
   to = "https://www.nsd.no/finn-data/:splat"
   status = 302
  
