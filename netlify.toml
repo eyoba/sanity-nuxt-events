@@ -172,9 +172,11 @@
   force = true
 
 
-[[redirects]]
-  from = "/search2/*"
-  to = "https://search2.nsd.no/:splat"
+
+  
+  [[redirects]]
+  from = ""https://search2.nsd.no/*"
+  to = "https://www.nsd.no/finn-data/:splat"
   status = 302
  
 
